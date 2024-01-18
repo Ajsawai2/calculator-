@@ -1,0 +1,157 @@
+#body
+{
+    width: 100%;
+    height: 613px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#cal
+{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    border: 2px solid  rgba(255, 255, 255, 0.747);
+    border-radius: 20px;
+
+
+}
+.screen
+{
+    width: 395px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 3px solid rgba(243, 227, 227, 0.877);
+
+}
+
+.ds{
+    
+    width: 385px;
+    height: 90px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 30px;
+    background-color: rgb(46, 45, 44);
+    color: aliceblue;
+
+}
+hr{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: blueviolet;
+}
+
+.ae
+{
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(112, 116, 109);
+}
+
+
+.number
+{
+    width: 396px;
+    height: 40pxpx;
+    border: 2px solid black;
+    display: flex;
+}
+
+.a
+{
+    width: 395px;
+    height: 328px;
+background-color: blue;
+border: 3px solid black;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+display: flex;
+
+}
+
+.b{
+    width: 113px;
+    height: 60px;
+    border-radius: 20px;
+    border: 5px solid rgba(228, 222, 222,0.5);
+
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    background-color: rgba(255, 255, 255,0.3);
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.b:hover{
+    box-shadow: 0px 0px 20px rgb(226, 8, 128);
+    background-color: rgba(255, 255, 255,0.9);
+    cursor: pointer;
+}
+
+.ae:hover
+{
+    box-shadow: 0px 0px 20px rgb(226, 8, 128);
+    background-color: rgba(255, 255, 255,0.9);
+    cursor: pointer;   
+  
+}
+
+#cal
+{
+    box-shadow: -3px -3px 20px rgb(226, 8, 128);
+}
+
+input:hover{
+    box-shadow: 0px 0px 20px rgb(226, 8, 128);
+}
+
+button{
+    width: 113px;
+    height: 0px;
+    
+    border: transparent;
+
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    background-color: transparent;
+    font-size: 40px;
+    color: aliceblue;
+    
+}
+
+button:hover{
+    color: black;
+}
+
+select {
+    width: 40px;
+    height: 30px;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+margin-left: 159px;
+}
+#hero
+{
+    margin-left: 100px;
+    width: 100%;
+    height: 20px;
+    color: aliceblue;
+    cursor: cell;
+}
+
