@@ -1,0 +1,54 @@
+*/html file */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cs.css">
+
+    <title>Document</title>
+</head>
+<body style=" background-color : rgba(41, 44, 44, 0.2);">
+  <h1 align="center">Calculator</h1>
+    
+   <div id="body">
+   
+    <div id="cal">
+         <div class="screen">
+         <input class="ds" type="number" placeholder="enter number">
+         </div>
+         <hr>
+         <div class="number">
+            <div class="ae">+</div>
+            <div class="ae">-</div>
+            <div class="ae">*</div>
+            <div class="ae">\</div>
+            
+         </div>
+       <!-- <div class="a">-->
+
+          
+        <div class="b"><button>1</button></div> 
+        <div class="b"><button>2</button></div>
+         <div class="b"><button>3</button></div> 
+         <div class="b"><button>4</button></div>
+
+           <div class="b"><button>5</button></div>
+
+           <div class="b"><button>6</button></div>
+           <div class="b"><button>7</button></div>
+           <div class="b"><button>8</button></div>
+           <div class="b"><button>9</button></div>
+           <div class="b"><button>0</button></div>
+           <div class="b"><button>=</button></div>
+           <div class="b"><button>Clear</button></div>
+           <div id="hero" >Mode :<input type="radio" name="class">Dark <input type="radio" name="class">White
+            </div>
+         </div>
+         </div>
+    
+   </div>
+
+    <script src="as.js"></script>
+</body>
+</html>
